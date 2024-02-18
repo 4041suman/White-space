@@ -1,0 +1,11 @@
+public class remove {
+    public static void main(String[] args) {
+     String a="128329392839239 duihvjrnviejvnjrie !@#$%^&*()";
+     a=a.replaceAll("[A-Za-z0-9]",""); 
+     System.out.println(a);
+      a=a.replaceAll("[^A-Za-z0-9]","");
+      System.out.println(a);
+}
+    
+}
+
