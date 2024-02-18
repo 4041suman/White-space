@@ -1,0 +1,14 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        int whitespace=0;
+        String str="welcome to Great karikalan Magic show";
+       for(char ch : str.toCharArray())
+        {
+        if(Character.isWhitespace(ch)){
+            whitespace++;
+              }}
+        System.out.println("No of whitespace : "+whitespace);
+        str=str.replaceAll("\\s","");
+        System.out.println(str);
+    }
+}
